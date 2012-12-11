@@ -1,4 +1,4 @@
 configs
 =======
 
-all my config files
+all my config files: .gitconfig, .vimrc
