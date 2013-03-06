@@ -1,0 +1,8 @@
+Host gitcafe.com www.gitcafe.com
+        IdentityFile ~/.ssh/gitcafe
+Host bitbucket.org
+        IdentityFile ~/.ssh/bitbucket
+Host sshfs_remote
+        IdentityFile ~/.ssh/id_rsa_sshfs
+        IdentitiesOnly yes
+        ServerAliveInterval 30
