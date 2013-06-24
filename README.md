@@ -6,3 +6,4 @@ all my config files:
 * .vimrc
 * .ssh/config
 * .screenrc
+* login.sql
