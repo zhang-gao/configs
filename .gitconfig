@@ -11,3 +11,5 @@
 	br = branch
 [color]
 	ui = true
+[core]
+	editor = vim
