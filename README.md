@@ -7,3 +7,4 @@ all my config files:
 * .ssh/config
 * .screenrc
 * login.sql
+* .mongorc.js
