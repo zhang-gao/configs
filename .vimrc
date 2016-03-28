@@ -73,8 +73,14 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
-colorscheme molokai
-set background=dark
-let g:rehash256 = 1
-let g:molokai_original = 1
+try
+    colorscheme molokai
+    set background=dark
+    let g:rehash256 = 1
+    let g:molokai_original = 1
+catch /^Vim\%((\a\+)\)\=:E185/
+    " deal with it
+endtry
+
+
 
