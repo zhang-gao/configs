@@ -1,5 +1,3 @@
-Host gitcafe.com www.gitcafe.com
-        IdentityFile ~/.ssh/gitcafe
 Host bitbucket.org
         IdentityFile ~/.ssh/bitbucket
 Host github.com
